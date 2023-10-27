@@ -20,3 +20,5 @@ export function Multistep({ size, currentStep = 1 }: MultistepProps) {
 }
 
 // criando um array do zero para percorrer os tamanhos
+
+Multistep.displayName = 'Multistep'

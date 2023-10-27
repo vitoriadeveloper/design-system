@@ -7,6 +7,13 @@ export default {
   args: {
     src: 'https://github.com/vitoriadeveloper.png',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 export const Primary: StoryObj<AvatarProps> = {}
 export const WithFallback: StoryObj<AvatarProps> = {
